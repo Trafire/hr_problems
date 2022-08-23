@@ -20,7 +20,7 @@ def get_students_by_grade(records, target_grade):
 
     Args:
         target_grade (float): Grade that students must match
-        records (List[list): sublist in form [name,grade]
+        records (List[list]): sublist in form [name,grade]
 
     Returns:
         List[str]: List of names sorted alphabetically
