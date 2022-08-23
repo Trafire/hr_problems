@@ -41,7 +41,6 @@ if __name__ == "__main__":
         score = float(input())
         student_records.append([name, score])
 
-    answers = []
     second_best = second_best_grade(student_records)
     students = get_students_by_grade(student_records, second_best)
     for student in students:
